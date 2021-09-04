@@ -1,0 +1,11 @@
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+tar -xf lolMiner_v1.29_Lin64.tar.gz
+cd 1.29
+./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user KNC:0xDa4D2D822b2e6786f6aE19B3bC1d62A9aCdE90e5.mineable01 --ethstratum ETHPROXY
+
+#verus
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tgz && tar xf nheqminer-Linux-v0.8.2.tar.gz && cd nheqminer
+
+./nheqminer -v -l pool.verus.io:9999 -u RKybXLgbAfrPGw2y8b1cAGomCMvPc2RzF9.cenemif891 -p x
+
+#mintme
