@@ -8,4 +8,13 @@ wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-L
 
 ./nheqminer -v -l pool.verus.io:9999 -u RKybXLgbAfrPGw2y8b1cAGomCMvPc2RzF9.cenemif891 -p x
 
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RKybXLgbAfrPGw2y8b1cAGomCMvPc2RzF9.cenemif891 -p x --cpu 2
+
 #mintme
+wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+
+tar -zxf webchain-miner-2.8.0-linux-amd64.tar.gz
+
+sudo ./webchain-miner -o pool.webchain.network:3333 -u 0xFef432C204DBfa800bc071a591F918D30e07A82d -p x
